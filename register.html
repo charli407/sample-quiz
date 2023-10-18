@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <div class="container">
+    <form id="form">
+        <h1>ENTER YOUR CREDENTIALS</h1><hr color="black"><br>
+        <h2>Enter your email   :
+        <input id='email' class="email" type="email"></input><br></h2>
+        <span id="err1" style="color: red; font-size: x-large;"></span>
+        <h2>Enter your password  :
+        <input id='password' class="password" type="password"></input><br></h2>
+        <span id="err2" style="color: red; font-size: x-large;"></span>
+        <h2><input type="checkbox" class="show" onclick="myFunction()">Show Password</h2><br>
+        <input type="submit" id="submit" value="SAVE"></input>
+        <h3 id="msg"></h3>
+    </div>
+    </form>
+    <script src="register.js"></script>
+</body>
